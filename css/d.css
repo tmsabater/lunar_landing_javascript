@@ -1,4 +1,23 @@
-body,html{height:100%;padding:0px;margin:0px;}
+body {
+	height:100%;padding:0px;margin:0px;
+	background-image:url(../img/espacio.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+html {
+	height: auto; padding: 0px; margin: 0px;
+}
+
+.a{font-family: Courier;
+	color: red;
+	font-size:20px;}
+
+.c{font-family: Courier;
+	color: red;
+	font-size:20px;display:block !important}
+.a,.b,.c{display:inline-block;width:33.33%;height:100%;float:left;}
+.d{background-color:#4e3b31;height:10%;width:100%;position:fixed;bottom:0px;}
 #nave{text-align:center;position:fixed;top:10%;width:100%;height:20%}
 #nave img{height:100%;}
 #cpanel{}
