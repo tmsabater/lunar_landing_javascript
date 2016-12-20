@@ -45,7 +45,8 @@ function stop(){
 	clearInterval(timer);
 }
 
-function moverNave(){
+function moverNave()
+{
 	v +=a*dt;
 	document.getElementById("velocidad").innerHTML=v;
 	y +=v*dt;
@@ -62,11 +63,13 @@ function motorOn(){
 	a=-g;
 	if (timerFuel==null)
 	timerFuel=setInterval(function(){ actualizarAltura(); }, 100);	
+    document.getElementById("nave2").src="../img/nave2.png";
 }
 function motorOff(){
 	a=g;
 	clearInterval(timerFuel);
 	timerFuel=null;
+    document.getElementById("nave2").src="../img/nave.png";
 }
 function actualizarAltura(){
 	//Aquí hay que cambiar el valor del marcador de Fuel...
