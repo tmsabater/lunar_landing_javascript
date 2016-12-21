@@ -1,7 +1,7 @@
 
 Esta es mi versión del juego lunar-landing para la tarea de LMSGI02
 
-Está integra;
+Está dispone de:
 
 - El Html con el código básico del trabajo.
 - Las diferentes versiones de CSS(d.css(versión escritorio) y m.css(versión dispositivo movil)) para modificar la visualización dependiendo de la resolución empleada.
